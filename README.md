@@ -1,4 +1,4 @@
-# CodeEx
+# Info
 - Change Username and Password at the end of the code
 - Only choses Exercieses upto Array Methods 1
 
