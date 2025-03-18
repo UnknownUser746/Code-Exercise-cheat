@@ -56,10 +56,10 @@ async function solveExercise(page, cursor, exercise) {
 
     // Typing delay here because of Statistic view (Jakup)
     const solutionLength = exercise.solution.length;
-    const minTime = exercise.typing_time.min * 1000; // Convert to milliseconds
+    const minTime = exercise.typing_time.min * 1000; 
     const maxTime = exercise.typing_time.max * 1000;
-    const totalTypingTime = Math.random() * (maxTime - minTime) + minTime; // Random time within range
-    const delayPerCharacter = totalTypingTime / solutionLength; // Typing delay per character
+    const totalTypingTime = Math.random() * (maxTime - minTime) + minTime; 
+    const delayPerCharacter = totalTypingTime / solutionLength; 
 
     console.log(`Typing solution with an average delay of ${Math.round(delayPerCharacter)}ms per character.`);
 
@@ -84,8 +84,8 @@ async function solveExercise(page, cursor, exercise) {
     const page = await browser.newPage();
     const cursor = createCursor(page);
     
-    const username = "Jonas Martens";
-    const password = "4619";
+    const username = "";            // Enter Username here
+    const password = "";            // Enter Password here
 
     await login(page, cursor, username, password);
 
