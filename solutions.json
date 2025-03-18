@@ -1,0 +1,82 @@
+{
+  "exercises": [
+    {
+      "name": "Exercise 1 - Basic Print 1",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise001",
+      "solution": "using System;\n\npublic class Program \n{   \n  public static void Main(string [] arg) \n  {  \n    Console.WriteLine(\"Hello World\");\n  }\n}",
+      "typing_time": { "min": 30, "max": 50 }
+    },
+    {
+      "name": "Exercise 2 - Basic Print 2",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise2",
+      "solution": "using System;\n\npublic class Program \n{\n    public static void Main(string[] args) \n    {\n        Console.WriteLine(\"There once was\");\n        Console.WriteLine(\"a prince\");\n        Console.WriteLine(\"and a princess\");\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 3 - Basic Print 3",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise3",
+      "solution": "using System;\n\npublic class Program \n{\n    public static void Main(string[] args) \n    {\n        Console.WriteLine(\"---*---\");\n        Console.WriteLine(\"--***--\");\n        Console.WriteLine(\"-*****-\");\n        Console.WriteLine(\"*******\");\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 4 - Loop Print 1",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise4",
+      "solution": "using System;\n\npublic class Program \n{\n    public static void Main(string[] args) \n    {\n        int i = 0;\n        while (i < 101)\n        {\n            Console.WriteLine(i);\n            i++;\n        }\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 5 - Loop Print 2",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise5",
+      "solution": "using System;\n\npublic class Program \n{\n    public static void Main(string[] args) \n    {\n        for (int i = 0; i <= 100; i++)\n        {\n            Console.WriteLine(i + \" \" + (i + 1) + \" \" + (i + 2));\n        }\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 6 - Loop Print 3",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise6",
+      "solution" :"using System;\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        for (int i = 0; i <= 100; i += 5)\n        {\n            Console.WriteLine(i + \" \" + (i + 1) + \" \" + (i + 2) + \" \" + (i + 3) + \" \" + (i + 4));\n        }\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 7 - One Method 1",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise42",
+      "solution": "using System;\n\npublic class Test \n{\n    public string A(string a)\n    {\n        return a + a;\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 8 - One Method 2",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise43",
+      "solution": "using System;\n\npublic class Test \n{\n    public string A(string a, string b)\n    {\n        return a + b + a + b;\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 9 - One Method 3",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise44",
+      "solution": "using System;\n\npublic class Test \n{\n    public string A(string text1, string text2, string text3) \n    {\n        string longest = text1;\n        \n        if (text2.Length > longest.Length)\n            longest = text2;\n        \n        if (text3.Length > longest.Length)\n            longest = text3;\n        \n        return longest;\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 10 - Basic Methods 1",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise7",
+      "solution": "using System;\n\npublic class Test \n{\n    public int A(int a, int b, int c)\n    {\n        return a + b + c;\n    }\n\n    public int B(int d, int e)\n    {\n        if (d > e) \n        {\n            return d;\n        }\n        else \n        {\n            return e;\n        }\n    }\n\n    public char C(string f)\n    {\n        return f[0];\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 11 - Basic Methods 2",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise8",
+      "solution": "using System;\n\npublic class Test\n{\n    public bool D(string a)\n    {\n        if (a == \"yes\") \n        {\n            return true;\n        }\n        else \n        {\n            return false;\n        }\n    }\n\n    public char E(string b)\n    {\n        return b[b.Length - 1];\n    }\n\n    public string F(string text)\n    {\n        if (text.Length == 1) \n        {\n            return text;\n        }\n        return text[text.Length - 1].ToString() + text[0].ToString();\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 12 - Basic Methods 3",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise9",
+      "solution": "using System;\n\npublic class Test\n{\n    public char G(string a, int b)\n    {\n        return a[b - 1];\n    }\n\n    public string H(string c, string d)\n    {\n        return c + d;\n    }\n\n    public bool I(string e, char f)\n    {\n        if (e[0] == f) \n        {\n            return true;\n        }\n        else \n        {\n            return false;\n        }\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    },
+    {
+      "name": "Exercise 13 - Array Methods 1",
+      "selector": "#ctl00_ContentPlaceHolder1_ButtonExecise10",
+      "solution": "using System;\n\npublic class Test\n{\n    public bool J(int[] numbers)\n    {\n        if (numbers.Length == 4)\n        {\n            return true;\n        }\n        return false;\n    }\n}",
+      "typing_time": { "min": 50, "max": 70 }
+    }
+  ]
+}
