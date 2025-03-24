@@ -180,7 +180,7 @@ async function detectNewExercises(page, knownExercises) {
     const newExercises = await detectNewExercises(page, exercises);
 
     if (newExercises.length > 0) {
-        console.log("🔍 New exercises found on the page that are NOT in your solutions.json:");
+        console.log("New exercises found on the page that are NOT in your solutions.json:");
         console.log(JSON.stringify(newExercises, null, 2));
         fs.writeFileSync('new_exercises_found.json', JSON.stringify(newExercises, null, 2));
     }
