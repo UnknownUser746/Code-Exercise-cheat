@@ -24,15 +24,15 @@ This project automates solving exercises on [codeexercise.wenningstedt.dk](https
 
 ---
 
-## Installation
+## Installation and Dependencies
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/code-exercise-auto-solver.git
+   git clone https://github.com/UnknownUser746/Code-Exercise-cheat.git
    cd code-exercise-auto-solver
-   After cloning
-   "npm i npm install puppeteer-extra puppeteer-extra-plugin-stealth ghost-cursor" in console
-
+---
 2. ## Install Node.js
    https://nodejs.org/en/download
-   
+--- 
+3. ## Install Dependencies
+   Enter "npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer ghost-cursor" in console
