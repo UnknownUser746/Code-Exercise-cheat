@@ -29,7 +29,7 @@ This project automates solving exercises on [codeexercise.wenningstedt.dk](https
 1. **Clone the repo**
    ```bash
    git clone https://github.com/UnknownUser746/Code-Exercise-cheat.git
-   cd code-exercise-auto-solver
+   cd code-exercise-auto-solver```
 ---
 2. ## Install Node.js
    https://nodejs.org/en/download
