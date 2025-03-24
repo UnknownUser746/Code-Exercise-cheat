@@ -24,7 +24,7 @@ This project automates solving exercises on [codeexercise.wenningstedt.dk](https
 
 ---
 
-## Installation and Dependencies
+## Installation 
 
 1. **Clone the repo**
    ```bash
@@ -36,3 +36,5 @@ This project automates solving exercises on [codeexercise.wenningstedt.dk](https
 --- 
 3. ## Install Dependencies
    Enter "npm install puppeteer-extra puppeteer-extra-plugin-stealth puppeteer ghost-cursor" in console
+4. ## How to Run
+   Enter "node main.js" into Console
